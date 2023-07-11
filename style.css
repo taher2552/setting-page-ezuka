@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* general css starts */
+
+select,
+input {
+  outline: none;
+}
+
+.font-style {
+  color: #1e2224;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+  text-transform: capitalize;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  border: 1px solid rgb(127, 126, 126);
+}
+
+/* general css ends  */
+
+/* setting container css  starts */
+
+.setting-container {
+  width: 75rem;
+  height: 56.81rem;
+  border: 1px solid red;
+  float: right;
+}
+
+/* top user and team button section starts here  */
+
+.user-btn {
+  border-radius: 0.3125rem;
+  border: 1px solid #2b74da;
+  background: #fff;
+  color: #2b74da;
+  font-size: 1rem;
+  padding: 0.94rem 1.56rem;
+  margin-left: 1rem;
+  margin-top: 1.44rem;
+  width: 5.865rem;
+}
+
+.user-btn:hover {
+  color: #ffffff;
+  background: #2b74da;
+  border: 1px solid #2b74da;
+  transition: all 400ms ease-in-out;
+}
+
+.team-btn {
+  color: #33475b;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  background: #fff;
+  padding: 0.94rem 1.56rem;
+  border: 1px solid transparent;
+  margin-left: -0.2rem;
+}
+
+/* top user and team button section ends here  */
+
+/* top message display starts here  */
+
+.top-msg-display {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+/* top message display ends here  */
+
+/* search and user button css starts here  */
+
+.search-box {
+  position: relative;
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+.search-input {
+  padding: 0.94rem 1rem;
+  padding-right: 5rem;
+  width: 18.75rem;
+  height: 2rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+
+.search-input::placeholder {
+  color: #909db0;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02563rem;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.5rem;
+  transform: translateY(-50%);
+  width: 0 0.875rem;
+  height: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.81rem;
+}
+
+.search-icon object {
+  width: 100%;
+  height: 100%;
+}
+
+.search-user-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-export {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.user-export p {
+  color: #1e2224;
+  margin-left: 0.31rem;
+}
+
+.create-user-btn {
+  padding: 0.75rem 0.9375rem;
+  border-radius: 0.3125rem;
+  background: #077838;
+  border: 1px solid transparent;
+  color: #fff;
+  margin-right: 2rem;
+  margin-left: 1.5rem;
+}
+
+.create-user-btn:hover {
+  border: 1px solid #077838;
+  color: #077838;
+  background-color: #fff;
+  transition: all 400ms ease-in-out;
+}
+
+/* search and user button css ends here  */
+
+/* user table section starts here  */
+
+.user-table {
+  font-size: 0.75rem;
+}
+
+.user-table table {
+  margin-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 4.81rem;
+}
+
+.name-info {
+  display: flex;
+  align-items: center;
+  justify-items: left;
+}
+
+.name-info p {
+  margin-right: 0.31rem;
+}
+
+.arrow-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-up,
+.arrow-down {
+  width: 0.775rem;
+  height: 0.775rem;
+
+  margin-bottom: -2px;
+}
+
+.user-table table,
+.user-table tr,
+.user-table th,
+.user-table td {
+  border-collapse: collapse;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+}
+
+.user-table th {
+  height: auto;
+  text-align: left;
+}
+
+.user-table th:nth-child(1) {
+  width: 4.4375rem;
+  /* text-align: center; */
+  /* padding: 1rem; */
+}
+.user-table th:nth-child(2) {
+  width: 23.5625rem;
+  padding: 1rem 1rem;
+}
+.user-table th:nth-child(3) {
+  width: 13.4375rem;
+  padding: 1rem 1rem;
+}
+.user-table th:nth-child(4) {
+  width: 20.625rem;
+  padding: 1rem 1rem;
+}
+.user-table th:nth-child(5) {
+  width: 10.9375rem;
+  padding: 1rem 1rem;
+}
+
+.user-table tr {
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.user-table td {
+  text-align: left;
+  letter-spacing: normal;
+}
+
+/* .user-table td:first-child {
+  text-align: center;
+  padding: 1rem;
+} */
+
+.user-table td:nth-child(1),
+.user-table td:nth-child(2),
+.user-table td:nth-child(3),
+.user-table td:nth-child(4) {
+  border-right: 1px solid transparent;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.usericon-name-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  position: relative;
+}
+
+.user-icon {
+  position: absolute;
+  margin-left: 1.51rem;
+  margin-top: 0.6rem;
+}
+
+.elipse {
+  z-index: 1000;
+  margin-left: 1rem;
+  margin-right: 0.31rem;
+}
+
+.usericon-name-email .user-name-info p:first-child {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.usericon-name-email .user-name-info p:last-child {
+  color: #33475b;
+  font-size: 0.75rem;
+  text-transform: lowercase;
+  margin-right: 1rem;
+}
+
+.select-action {
+  border-radius: 0.3125rem;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  padding: 0.4rem;
+  margin: 0.75rem 0;
+  cursor: pointer;
+}
+
+.user-table td:nth-child(3),
+.user-table td:nth-child(4),
+.user-table td:nth-child(5) {
+  padding-left: 1rem;
+  font-size: 0.875rem;
+}
+
+/* check box css start here  */
+
+.custom-checkbox {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+  width: 1.4375rem;
+  height: 1.4375rem;
+  border-radius: 0.125rem;
+  border: 1px solid var(--stroke, #dcdcdc);
+  background: #fff;
+}
+
+.custom-checkbox input:checked ~ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #333;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox:hover .checkmark {
+  background-color: #ccc;
+}
+
+/* check box css ends here  */
+
+/* user table section ends here  */
+
+/* setting-container css ends  */

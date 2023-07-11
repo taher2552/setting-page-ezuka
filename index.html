@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setting page</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lexend Deca font link  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="setting-container">
+        <section>
+            <button class="font-style user-btn">Users</button>
+            <button class="font-style team-btn">Teams</button>
+        </section>
+
+        <section class="top-msg-display">
+            <p class="font-style">Create new users, customize user permissions, and remove users from your account</p>
+        </section>
+
+        <section>
+            <div class="search-user-section">
+                <div class="search-box">
+                    <input type="text" class="search-input font-style" placeholder="Search...">
+                    <span class="search-icon">
+                        <object data="./svg/search.svg"></object>
+                    </span>
+                </div>
+
+
+                <div class="user-export">
+                    <object data="./svg/export.svg" class="export-icon"></object>
+                    <p class="font-style">Export Users</p>
+                    <button class="create-user-btn">Create User</button>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="user-table font-style">
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </th>
+                        <th>
+                            <div class="name-info">
+                                <p>NAME</p>
+                                <div class="arrow-icon">
+                                    <object data="./svg/arrow-up.svg" class="arrow-up"></object>
+                                    <object data="./svg/arrow-down.svg" class="arrow-down"></object>
+                                </div>
+                            </div>
+
+                        </th>
+                        <th>
+                            <div class="name-info">
+                                <p>TEAM</p>
+                                <div class="arrow-icon">
+                                    <object data="./svg/arrow-up.svg" class="arrow-up"></object>
+                                    <object data="./svg/arrow-down.svg" class="arrow-down"></object>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="name-info">
+                                <p>ACCESS</p>
+                                <div class="arrow-icon">
+                                    <object data="./svg/arrow-up.svg" class="arrow-up"></object>
+                                    <object data="./svg/arrow-down.svg" class="arrow-down"></object>
+                                </div>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="name-info">
+                                <p>LAST ACTIVE</p>
+                                <div class="arrow-icon">
+                                    <object data="./svg/arrow-up.svg" class="arrow-up"></object>
+                                    <object data="./svg/arrow-down.svg" class="arrow-down"></object>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <label class="custom-checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label></td>
+                        <td>
+                            <div class="user-info">
+                                <div class="usericon-name-email">
+                                    <div>
+
+                                        <object data="./svg/user.svg" class="user-icon">
+                                        </object>
+                                        <object data="./svg/elipse.svg" class="elipse"></object>
+                                    </div>
+
+                                    <div class="user-name-info">
+                                        <p class="user-name-value">Anant Sign Chauhan</p>
+                                        <p>anantsingh@123@gmail.com</p>
+                                    </div>
+
+                                </div>
+                                <div>
+                                    <!-- <button class="action-btn font-style"><span>Action </span><span><object data="./svg/arrow-down.svg"></object></span></button> -->
+                                    <select name="" id="" class="select-action font-style">
+                                        <option value="">Action</option>
+                                    </select>
+                                </div>
+
+                            </div>
+
+                        </td>
+                        <td></td>
+                        <td>Super Admin</td>
+                        <td>3 hours ago</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+
+
+    </main>
+</body>
+
+</html>
